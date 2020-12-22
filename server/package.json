@@ -1,0 +1,12 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "boilerplate for node express mongoose",
+  "private": true,
+  "scripts": {
+    "dev": "NODE_ENV=development nodemon -r dotenv/config bin/www.js",
+    "start": "NODE_ENV=production node bin/www.js"
+  },
+  "author": "dhruv479 <dhruv479@gmail.com>",
+  "license": "ISC"
+}
